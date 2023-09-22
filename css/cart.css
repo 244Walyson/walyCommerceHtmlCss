@@ -52,3 +52,18 @@
     height: 78px;
     width: 78px;
 }
+
+@media screen and (max-width: 520px) {
+    .product{
+        flex-direction: column;
+    }
+    .price{
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+    .text-img{
+        padding: 20px;
+        padding-bottom: 5px;
+        display: flex;
+    }
+}
